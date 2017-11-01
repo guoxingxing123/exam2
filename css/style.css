@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: .12rem;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: .45rem;
+  background-color: #eee; }
+
+section {
+  flex: 1;
+  overflow-y: scroll;
+  background-color: #818d9b; }
+  section .box {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #fff;
+    height: 80%;
+    margin-top: 10%;
+    border-radius: .1rem;
+    padding-top: .3rem; }
+
+.tops {
+  text-align: center; }
+  .tops img {
+    width: 40%;
+    height: auto; }
+  .tops h3 {
+    font-size: .16rem;
+    margin-bottom: .3rem; }
+
+.main {
+  width: 90%;
+  margin-left: 5%; }
+  .main p {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    height: .5rem;
+    margin-top: .2rem;
+    line-height: .5rem; }
+    .main p img {
+      width: 5%;
+      height: auto;
+      margin-left: .1rem;
+      margin-right: .1rem;
+      vertical-align: middle; }
+    .main p input {
+      width: 80%;
+      height: 97%;
+      border: none;
+      outline: none; }
+
+button {
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 10%;
+  height: 45px;
+  background-color: #2fba77;
+  color: #fff;
+  border: none;
+  border-radius: 10px; }
+
+footer {
+  height: .45rem;
+  background-color: #eee; }
+
+/*# sourceMappingURL=style.css.map */
